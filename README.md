@@ -35,4 +35,4 @@ MIT
 
 ## Contact
 
-For any questions, please reach out to me on GitHub [5mitty](https://github.com/5mitty) or via email at email@email.com.
+For any questions, please reach out to me on GitHub [5mitty](https://github.com/5mitty) or via email at jacobmsmith104@gmail.com
