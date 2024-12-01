@@ -1,0 +1,79 @@
+.header {
+  background-color: #333; /* Dark background */
+  padding: 10px; /* Padding around the header */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-list li {
+  margin-right: 20px; /* Space between links */
+}
+
+.nav-link {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between title and nav items */
+  height: 100px; /* Adjust height as needed */
+  width: 100%; /* Make header full width */
+  background-color: #4a90e2; /* Background color */
+  color: white; /* Text color */
+  padding: 0 20px; /* Horizontal padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  position: fixed; /* Fix the header to the top */
+  top: 0; /* Position it at the top */
+  left: 0; /* Align to the left */
+  z-index: 1000; /* Ensure it stays above other content */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.header-title {
+  font-size: 2em; /* Increase font size for the title */
+  margin-bottom: 10px; /* Space between title and nav */
+  /* margin-right: 10%; */
+  margin-left: 5%;
+}
+.header-content {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between title and nav items */
+  width: 100%; /* Make it full width */
+}
+
+nav {
+  margin-right: 7%;
+}
+
+.nav-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for horizontal layout */
+  /* margin-right: 30px; */
+  margin-left: 40px;
+  /* justify-content: center; */
+  gap: 20px; /* Space between nav items */
+}
+
+.navListItem {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make links bold */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navListItem:hover {
+  color: #f39c12; /* Change color on hover */
+}
