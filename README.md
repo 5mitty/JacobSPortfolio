@@ -4,7 +4,7 @@ https://youtu.be/-WkrMSLbU-0
 
 ## Description
 
-This is a Vehicle Management System! This command-line application allows users to efficiently manage a virtual garage by creating, selecting, and controlling various types of vehicles, including cars, trucks, and motorbikes. Users can perform actions such as starting, accelerating, and reversing their vehicles with ease. Throughout the development of this application, I gained valuable experience working with the Inquirer package for user input, organizing multiple source files for better structure, and implementing interfaces to enhance the responsiveness of the CLI program. This project aims to provide a seamless and interactive experience for vehicle management enthusiasts
+Welcome to my Portfolio! This web application showcases my work as a full stack developer, featuring a collection of my projects, skills, and experiences throughout my experience in the Northwestern Coding Bootcamp. Users can navigate through various sections to view deployed applications, explore project deploys/github repositories. Throughout the development of this portfolio, I gained valuable experience in responsive design using CSS, implementing interactive elements with JavaScript, and organizing content effectively to highlight my strengths. This project aims to provide potential employers with a comprehensive overview of my capabilities and projects, making it easier for them to assess my fit for their teams.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ npm install  npm run build npm run start
 
 ## Usage
 
-Select or Create a vehicle and manage it within the CLI
+View the application and navigate to discover a Porfolio and Resume. The Contact nav page checks for valid data.
 
 ## Contribution
 
