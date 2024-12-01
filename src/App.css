@@ -1,0 +1,98 @@
+html, body {
+  height: 100%; /* Set the height of html and body to 100% */
+  margin: 0; /* Remove default margin */
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+  height: 100%;
+}
+
+/* Logo Styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Main Content Styles */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack header, main content, and footer vertically */
+  min-height: 100vh; /* Ensure the container takes full height */
+}
+
+.main {
+  flex: 1; /* Allow the main section to grow */
+  padding-top: 20px; /* Padding for the main content */
+}
+
+/* Page Styles */
+.aboutPage, .portfolioPage, .contactPage, .resumePage {
+  padding-top: 100px;
+  /* background-color: rgb(249, 249, 249); */
+}
+
+.resumePage {
+  background-color: rgb(249, 249, 249);
+}
+
+.myProfileImage {
+  padding-top: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.bioText {
+  margin: 10px; /* Use shorthand for left and right margin */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Footer Styles */
+.footerLink {
+  margin: 0 10px; /* Use shorthand for left and right margin */
+  color: rgb(83, 83, 83);
+}
+
+/* Resume Box Styles */
+.resumeBox {
+  width: 80vw; /* Use viewport width (vw) for responsive sizing */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.myResume {
+  width: 90%; /* Adjust this value to enlarge the image */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the container */
+}
