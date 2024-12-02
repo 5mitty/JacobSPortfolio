@@ -1,7 +1,5 @@
 ## <MYPORTOLIO>
 
-https://youtu.be/-WkrMSLbU-0
-
 ## Description
 
 Welcome to my Portfolio! This web application showcases my work as a full stack developer, featuring a collection of my projects, skills, and experiences throughout my experience in the Northwestern Coding Bootcamp. Users can navigate through various sections to view deployed applications, explore project deploys/github repositories. Throughout the development of this portfolio, I gained valuable experience in responsive design using CSS, implementing interactive elements with JavaScript, and organizing content effectively to highlight my strengths. This project aims to provide potential employers with a comprehensive overview of my capabilities and projects, making it easier for them to assess my fit for their teams.
