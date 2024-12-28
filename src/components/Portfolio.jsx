@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mmelodiesPic from '../assets/mmelodioespic.png';
+import mmelodiesPic from '../assets/mmelodiesdemopic.png';
 
 const projects = [
   {
@@ -39,7 +39,7 @@ const Portfolio = () => {
             {projects.map((project) => (
               <div key={project.title} className="project"> {/* Use project title as key for uniqueness */}
                 <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
-                  <img src={project.image} alt={project.title} />
+                  <img src={project.image} alt={project.title} className='portfolioProjectImg'/>
                   <h3>{project.title}</h3>
                 </a>
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
