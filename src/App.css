@@ -11,6 +11,19 @@ html, body {
   height: 100%;
 }
 
+.navListItem:hover {
+  color: #bdd6f3;
+}
+
+.footerLink:hover {
+  color: #639fe2;
+}
+
+.portfolioProjectImg {
+  height: auto;
+  width: 50%;
+}
+
 /* Logo Styles */
 .logo {
   height: 6em;
@@ -46,7 +59,7 @@ html, body {
 .container {
   display: flex;
   flex-direction: column; /* Stack header, main content, and footer vertically */
-  min-height: 100vh; /* Ensure the container takes full height */
+  min-height: 94vh; /* Ensure the container takes full height */
 }
 
 .main {
@@ -58,6 +71,12 @@ html, body {
 .aboutPage, .portfolioPage, .contactPage, .resumePage {
   padding-top: 100px;
   /* background-color: rgb(249, 249, 249); */
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .resumePage {

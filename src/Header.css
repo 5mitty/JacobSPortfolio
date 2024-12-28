@@ -13,6 +13,10 @@
   margin-right: 20px; /* Space between links */
 }
 
+.navListItem:hover {
+  color: #bbd5f2;
+}
+
 .nav-link {
   color: white; /* White text color */
   text-decoration: none; /* Remove underline */
@@ -21,6 +25,7 @@
 
 .nav-link:hover {
   text-decoration: underline; /* Underline on hover */
+  color: #a2c3ea;
 }
 
 .header {
@@ -29,7 +34,8 @@
   justify-content: space-between; /* Space between title and nav items */
   height: 100px; /* Adjust height as needed */
   width: 100%; /* Make header full width */
-  background-color: #4a90e2; /* Background color */
+  /* background-color: #4a90e2; */
+  background-image: linear-gradient(to right, #4a90e2, #66ccff); /* Gradient background */
   color: white; /* Text color */
   padding: 0 20px; /* Horizontal padding */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
@@ -50,6 +56,7 @@
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between title and nav items */
+  font-weight: 400;
   width: 100%; /* Make it full width */
 }
 

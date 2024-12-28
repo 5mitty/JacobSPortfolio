@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import mmelodiesPic from '../assets/mmelodioespic.png';
 
 const projects = [
   {
     title: 'Meteorological Melodies',
-    image: 'link-to-image1', // Replace with actual image link
+    image: mmelodiesPic, // Replace with actual image link
     deployedLink: 'link-to-deployed-app1', // Replace with actual deployed app link
     githubLink: 'link-to-github-repo1', // Replace with actual GitHub repo link
   },
@@ -26,7 +27,6 @@ const projects = [
     deployedLink: 'link-to-deployed-app1', // Replace with actual deployed app link
     githubLink: 'link-to-github-repo1', // Replace with actual GitHub repo link
   }
-  // Add more projects as needed
 ];
 
 const Portfolio = () => {
